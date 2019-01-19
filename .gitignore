@@ -1,0 +1,10 @@
+.idea
+target
+allure-results
+/test-output
+/surefire-reports
+*.png
+*.iml
+*.pdf
+*.csv
+
