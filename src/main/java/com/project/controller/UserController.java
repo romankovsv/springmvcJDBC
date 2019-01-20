@@ -20,8 +20,15 @@ public class UserController {
         return "index";
     }
 
+
+    @PostMapping("/")
+    public String addUserOnHello(@ModelAttribute("myuser") User user){
+        System.out.println(user.getEmail());
+        return "hello";
+    }
+
     @GetMapping("/hello")
-    public String hello(){
+    public String hello(@ModelAttribute("myuser") User user){
         return "hello";
     }
 

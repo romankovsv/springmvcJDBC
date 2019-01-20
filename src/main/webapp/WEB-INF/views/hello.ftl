@@ -6,6 +6,8 @@
 </head>
 <body>
 <h2>I am first template</h2>
+
+<h3>This is user: ${myuser.name}</h3>
 <a href="/users">go to Users</a>
 </body>
 </html>
